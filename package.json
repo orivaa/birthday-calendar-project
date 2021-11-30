@@ -2,17 +2,20 @@
   "name": "birthday-calendar-project",
   "version": "1.0.0",
   "description": "Small one pager for the artists Reyhan's birthday",
-  "main": "index.js",
   "repository": "https://github.com/orivaa/birthday-calendar-project.git",
   "author": "orivaa",
   "license": "Unlicensed",
   "private": true,
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel ./src/index.html",
     "build": "parcel build"
   },
   "devDependencies": {
     "parcel": "latest"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "micromodal": "^0.4.9"
   }
 }
