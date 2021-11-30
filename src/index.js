@@ -1,5 +1,3 @@
-import MicroModal from 'micromodal';
-import * as dayjs from 'dayjs';
 
 window.addEventListener('DOMContentLoaded', () => {
     MicroModal.init();
