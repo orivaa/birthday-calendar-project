@@ -15,7 +15,7 @@ footer {
 }
 
 header {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   padding-top: 60px;
   display: flex;
   align-items: baseline;
@@ -28,7 +28,7 @@ header {
 }
 
 main {
-  padding-top: 80px;
+  padding-top: 120px;
   width: 1000px;
 }
 

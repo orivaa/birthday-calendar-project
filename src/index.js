@@ -14,11 +14,11 @@ window.addEventListener('DOMContentLoaded', () => {
             const dataOpenDate = currentTargetDataSet.openDate;
             const dataDoorId = currentTargetDataSet.doorId;
             
-            // if (!(dayjs().isBefore(dataOpenDate, 'day'))) {
+            if (!(dayjs().isBefore(dataOpenDate, 'day'))) {
                 localStorage.setItem(dataDoorId, 'open');
                 !currentButton.classList.contains('is-open') && currentButton.classList.add('is-open');
                 MicroModal.show(dataModalId);
-            // }
+            }
         })
     })
 });
